@@ -1,0 +1,105 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        body {
+            background-image: url('images/Stressed, blessed, and volleyball obsessed.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        /* --- FIRST TABLE STYLES --- */
+        /*--- we removed the table in list of th , td , in style section to apply radius and remove the outer border ---*/
+         th , td {
+            border: 2px solid white;
+            border-color: darkmagenta;
+            border-style: dotted;
+            background-color: #96D4D4;
+            border-collapse: separate;
+            padding: 2px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        #parabure {
+            width: 90%;
+            margin: 10px;
+            border-collapse: separate;
+            border-spacing: 0; 
+            border: 2px dashed white; 
+            border-radius: 10px; 
+            border-color: red;
+            background-color: burlywood;
+        }
+
+        /* This explicitly styles the internal sections/borders between columns and rows */
+        #parabure th, #parabure td {
+            background-color: burlywood;
+            color: black;
+            padding: 6px;
+            border: 1px dashed green;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: whitesmoke;">table making</h1>
+
+    <p style="color: aliceblue;">when the table be removed in css to background radius its when it will all be circled with out boarders</p>
+    
+    <table style="width: 70%;">
+        <tr>
+            <th style="width: 100%;">names</th>
+            <th>class</th>
+            <th>fathersname</th>
+            <th>company names</th>
+        </tr>
+        <tr style="height: 100px;">
+
+            <td>agaba</td>
+            <td>ETT B</td>
+            <td>parabure</td>
+            <td>parabure import ltd</td>
+        </tr>
+        <tr>
+            <td>murisa</td>
+            <td>ETT A</td>
+            <td>busizori</td>
+            <td>sam drinks ltd</td>
+        </tr>
+    </table>
+
+    <h2 style="color: white;">lets try also the : Round Table Borders</h2>
+    
+   
+    <table id="parabure">
+        <caption style="color: antiquewhite;">this are good health areas</caption>
+        <colgroup>
+        <col span="2" style="background-color:brown;"></colgroup>
+        <tr>
+            <th colspan="2">province and district</th>
+            <th>sector</th>
+            <th>cell</th>
+        </tr>
+        <tr>
+            <td>eastern</td>
+            <td>nyagatare</td>
+            <td>rwimiyaga</td>
+            <td>ntoma</td>
+        </tr>
+        <tr>
+            <td rowspan="2">northan</td>
+            <td>tumba</td>
+            <td>katoto</td>
+        </tr>
+        <tr>
+            <td>sourthan</td>
+            <td>huye</td>
+            <td>bwera</td>
+            <td>kinamba</td>
+        </tr>
+    </table>
+</body>
+</html>
