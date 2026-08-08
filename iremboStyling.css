@@ -1,0 +1,98 @@
+    body{
+        background-color: #ffffff;;
+    }
+ .allSection1{
+   display: flex;
+   gap:70px;
+   margin-left:2cm;
+ }
+  .allSection2{
+   display: flex;
+   gap:70px;
+   margin-left:2cm;
+ }
+ .allSection3{
+display: flex;
+   gap:70px;
+   margin-left:2cm;
+
+ }
+ .allSection4{
+display: flex;
+   gap: 20px;
+   margin-left:2cm;
+ }
+.allSection5{
+    display: flex;
+   gap:70px;
+   margin-left:2cm;
+}
+.allSection6{
+
+    display: flex;
+    gap: 70px;
+    margin-left: 2cm;
+}
+.allSection7{
+    display:flex;
+    gap: 120px;
+    margin-left: 2cm;
+}
+.allSection8{
+    display: flex;
+    gap: 70px;
+    margin-left: 2cm;
+}
+.allSection9{
+    display:flex;
+    gap: 70px;
+    margin-left: 2cm;
+}
+.allSection10{
+    display:flex;
+gap: 70px;
+margin-left: 2cm;
+}
+.allSection11{
+      display:flex;
+gap: 70px;
+margin-left: 2cm;
+}
+.allSection12{
+     display:flex;
+gap: 70px;
+margin-left: 2cm;
+}
+
+.allSection13{
+     display:flex;
+gap: 70px;
+margin-left: 2cm 
+}
+.allSection14{
+    display: flex;
+margin: 2cm;
+    gap: 70px;
+}
+.allSection15{
+display: flex;
+margin: 2cm;
+    gap: 70px;
+}
+.allSection16{
+    display: flex;
+   margin-left:2cm;
+   gap: 70px;
+}
+.allSection17{
+    display: flex;
+    gap: 70px;
+    margin-left: 2cm;
+}
+.allSection18{
+     display: flex;
+    gap: 70px;
+    margin-left: 2cm;
+}
+
+    </style>
