@@ -25,3 +25,10 @@
          padding: 30px ;
          margin: 30px;
     }
+    a{
+        text-decoration: none;
+
+    }
+    a:hover{
+        color: inherit;
+    }
