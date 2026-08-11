@@ -1,6 +1,13 @@
     body{
         background-color: #ffffff;;
     }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
  .allSection1{
    display: flex;
    gap:70px;
