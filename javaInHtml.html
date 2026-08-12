@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+ </head>
+ <body>
+    <h1>lets test about javascript in html</h1>
+    <button type="button" 
+    onclick="document.getElementById('mine').innerHTML= Date()"> check time</button>
+    <p id="mine"></p>
+    <button type="button" onclick="document.getElementById('min').innerHTML=Date()">try time</button>
+      <p id="min"></p>
+      <h2>let's acces javascript by using script</h2>
+      <p id="parabure"></p>
+      <script>
+        document.getElementById('parabure').innerHTML="thanks for coming"
+      </script>
+
+
+      <h3>java script in content changings </h3>
+      <p>javascript can change content by ony single clicking</p>
+
+
+      <button type="button" onclick="myfunction()"> click me for changes</button>
+      <script>
+        function myfunction(){
+          let element = document.getElementById('js');
+          if(element.innerHTML== "your highly welcome"){
+            element.innerHTML = "feel free feel home";
+          }
+          else if(element.innerHTML =="feel free feel home") {
+            element.innerHTML= "thanks for coming home";
+          } else if(element.innerHTML=="thanks for coming home")
+          element.innerHTML='contineu to enjoy this moments';
+          
+        }
+      </script>
+  <p id="js">your highly welcome</p>      
+
+ </body>
+ </html>
