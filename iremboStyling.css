@@ -8,6 +8,11 @@
     a:hover{
         text-decoration: underline;
     }
+
+    .mituweri-alert{
+        background-color: yellow;
+        
+    }
  .allSection1{
    display: flex;
    gap:70px;
